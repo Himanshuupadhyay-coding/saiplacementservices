@@ -508,7 +508,10 @@ footer { background: var(--white-2); }
 
 .footer-brand { margin-bottom: 20px; }
 
-footer .logo { margin-bottom: 30px; }
+footer .logo { margin-bottom: 30px;
+  margin-top: 30px;
+  opacity:0.6;
+justify-content: center;}
 
 .footer-text {
   color: var(--rythm);
