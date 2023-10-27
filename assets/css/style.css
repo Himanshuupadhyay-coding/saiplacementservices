@@ -518,8 +518,8 @@ footer .logo { margin-bottom: 30px; }
 
 .social-list {
   display: flex;
-  justify-content: flex-start;
-  gap: 20px;
+  justify-content:flex-start;
+  gap: 5px;
 }
 
 .social-link {
