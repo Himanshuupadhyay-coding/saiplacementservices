@@ -497,6 +497,18 @@ textarea {
 
 
 
+.add{
+  font-size: 25px;
+}
+
+.tel{
+  color:grey;
+  font-size: 20px;;
+}
+
+
+
+
 
 /*-----------------------------------*\ 
  * #FOOTER
@@ -510,12 +522,12 @@ footer { background: var(--white-2); }
 
 footer .logo { margin-bottom: 30px;
   margin-top: 30px;
-  opacity:0.4;
+  
 justify-content: center;}
 
 .footer-text {
   color: var(--rythm);
-  font-size: var(--fs-6);
+  font-size: 25px;
   margin-bottom: 20px;
 }
 
