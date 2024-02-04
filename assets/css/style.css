@@ -1095,3 +1095,112 @@ justify-content: center;}
   .features :is(.section-title, .section-text) { max-width: 850px; }
 
 }
+
+/* not so main */
+
+
+.footer-top {
+  padding: var(--section-padding) 50px;
+  background: var(--cultured);
+}
+
+.footer-brand { margin-bottom: 40px; }
+
+.footer-logo { margin-bottom: 30px; }
+
+.footer-link-box {
+  display: grid;
+  gap: 40px;
+}
+
+.footer-list li:not(:last-child) { margin-bottom: 10px; }
+
+.footer-list li:first-child { margin-bottom: 15px; }
+
+.footer-link {
+  color: var(--sonic-silver);
+  max-width: 150px;
+}
+
+.footer-link:is(:hover, :focus) { text-decoration: underline; }
+
+.divider {
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, hsl(0, 0%, 88%) 25% 75%, transparent);
+}
+
+.footer-bottom {
+  padding: 30px 0;
+  background: var(--cultured);
+  text-align: center;
+}
+
+.copyright {
+  color: var(--sonic-silver);
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.copyright > a {
+  color: inherit;
+  display: inline-block;
+}
+
+.copyright > a:is(:hover, :focus) { text-decoration: underline; }
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px 13px;
+}
+
+.social-list > li { position: relative; }
+
+.social-list > li:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -6px;
+  width: 1px;
+  height: 100%;
+  background: var(--sonic-silver);
+}
+
+.social-link { color: var(--sonic-silver); }
+
+.social-link:is(:hover, :focus) { text-decoration: underline; }
+
+
+/* res for 450px screen */
+.footer-link-box { grid-template-columns: 1fr 1fr; }
+
+
+
+/**
+ * responsive for lareger than 768px screen
+ */
+
+ .footer-link-box { grid-template-columns: repeat(4, 1fr); }
+
+  .footer-bottom .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .copyright { margin-bottom: 0; }
+
+
+
+.main-foot{
+  font-size:20px;
+  font-family:Arial, Helvetica, sans-serif;
+
+}
+
+/* #tel{
+  font-size: 15px;
+} */
